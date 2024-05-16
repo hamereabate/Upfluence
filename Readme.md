@@ -23,6 +23,12 @@ In the project directory, you can run the following to install the dependencies:
 ```bash
 go mod download
 ```
+If you get no module found error, you can run the following command:
+
+```bash
+go mod init upfluence
+```
+And then run the usage command.
 
 ## Usage
 First run the following command in the terminal to start the server:
@@ -30,6 +36,12 @@ First run the following command in the terminal to start the server:
 ```bash
 go run .
 ```
+And then go to your browser and paste the following URL:
+
+```bash
+http://localhost:8080/analysis?duration=30s&dimension=likes
+```
+After waiting for 30 seconds, you will see the result in the browser.
 And then go to your browser and paste the following URL:
 
 ```bash
