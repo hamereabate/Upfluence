@@ -42,9 +42,3 @@ And then go to your browser and paste the following URL:
 http://localhost:8080/analysis?duration=30s&dimension=likes
 ```
 After waiting for 30 seconds, you will see the result in the browser.
-And then go to your browser and paste the following URL:
-
-```bash
-http://localhost:8080/analysis?duration=30s&dimension=likes
-```
-After waiting for 30 seconds, you will see the result in the browser.
